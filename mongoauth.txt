@@ -1,0 +1,4 @@
+use xunfeng
+db.createUser({user:'atiger77',pwd:'atiger77_ChangeMe',roles:[{role:'dbOwner',db:'xunfeng'}]})
+db.auth('atiger77', 'atiger77_ChangeMe')
+exit
