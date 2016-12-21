@@ -14,10 +14,15 @@ PS: 这里需要注意部署mongo版本必须在3.2及以上，否则导入db目
    
 ### 部署方式
 1.文件介绍
+
   mongoauth.txt mongo认证文件
+  
   Config.py Flask的配置文件，其中存放mongo密码要与上一个文件保持一致
+  
   MongoDB-org-3.2.repo mongodb的repo文件
+  
   Run.sh 执行文件，在docker启动后会执行
+  
   Dockerfile docker镜像生产文件
 
 2.部署方式
