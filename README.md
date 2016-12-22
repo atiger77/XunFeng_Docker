@@ -12,7 +12,9 @@ Atiger77 Docker版本：https://github.com/atiger77/XunFeng_Docker
 
 PS: 这里需要注意部署mongo版本必须在3.2及以上，否则导入db目录中的bson和json文件会出现索引错误。
    
+
 ### 部署方式
+
 1.文件介绍
 
   mongoauth.txt mongo认证文件
@@ -26,6 +28,9 @@ PS: 这里需要注意部署mongo版本必须在3.2及以上，否则导入db目
   Dockerfile docker镜像生产文件
 
 2.部署方式
+ 
+备注：由于巡风项目一直在更新，我的代码可能会没即时同步到最新版本，可以先clone巡风的主代码然后覆盖掉我项目中xunfeng-master中的内容即可。
+
   a. 下载全部文件
   
   ```
